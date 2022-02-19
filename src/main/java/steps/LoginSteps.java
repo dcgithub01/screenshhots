@@ -17,7 +17,7 @@ public class LoginSteps {
 		loginPage.doEnterUserEmail(username);
 		loginPage.doClickNextBtn();
 		System.out.println("test");
-		
+		System.out.println("test1");
 		
 		
 	}
