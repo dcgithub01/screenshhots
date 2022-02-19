@@ -7,6 +7,7 @@ public class LoginPage extends PageObject{
 	public void doNavigate()
 	{
 		open();
+		System.out.println("opening URL");
 		
 	}
 	public void doEnterUserEmail(String username)
