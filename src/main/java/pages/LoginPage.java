@@ -34,4 +34,12 @@ public class LoginPage extends PageObject{
 	{
 		$("span.help").click();
 	}
+	public void doClickUseAnotherAcct()
+	{
+		$(".bottom-cta").click();
+	}
+	public void doClickSignUP()
+	{
+		$(".sign-up-link").click();
+	}
 }
